@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Pasidu Piyumantha</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="Img/icone.png">
+
+    <style>
+        /* Background Animation */
+        body {
+            position: relative;
+            background: #121212;
+            color: white;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        /* Particle Animation */
+        .particles {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+        }
+
+        .particle {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+            animation: floatParticles 5s infinite ease-in-out;
+        }
+
+        @keyframes floatParticles {
+            0% {
+                transform: translateY(0) scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: translateY(-50px) scale(1.2);
+                opacity: 0.8;
+            }
+            100% {
+                transform: translateY(-100px) scale(0.8);
+                opacity: 0;
+            }
+        }
+
+        /* Contact Section Styling */  
+        #contact {
+            padding: 50px 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 50px;
+        }
+
+        .contact-form, .contact-info {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            width: 450px;
+            backdrop-filter: blur(10px);
+            animation: fadeIn 1.2s ease-in-out;
+            height: 365px;
+            margin-top: 40px;
+        }
+
+        /* Floating Input Fields */
+        input, textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 0px 0;
+            border: none;
+            border-radius: 80px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            font-size: 16px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        input:focus, textarea:focus {
+            background: rgba(211, 115, 115, 0.3);
+            outline: none;
+            transform: scale(1.05);
+        }
+
+        /* Button Animation */
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+            background: linear-gradient(45deg, #ff4b2b, #ff416c);
+        }
+
+        /* Social Icons Hover Animation */
+        .social-icons a {
+            display: inline-block;
+            font-size: 30px;
+            margin: 10px;
+            transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+            margin-top: 60px;
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.7);
+            color: #ff4b2b;
+        }
+
+        /* Fade-In Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+
+        .about-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    writing-mode: vertical-rl; /* Makes text vertical */
+    text-orientation: mixed;
+    letter-spacing: 7px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.contact-info h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white; /* Adjust color if needed */
+}
+
+.contact-info p {
+    font-size: 20px;
+    color: white; /* Adjust as needed */
+}
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Floating Particles -->
+    <div class="particles"></div>
+
+    <header>
+        <h2 class="logo">Pasidu Piyumantha</h2>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+       
+    <div class="about-title">About Me</div>
+
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form action="https://formspree.io/f/mwpvaebz" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="text" name="phone" placeholder="Contact Number" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h3>Contact Details</h3>
+                <p><i class="fas fa-envelope"></i> pasidupiyumantha1972@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +94 702 924 299</p>
+                <p><i class="fas fa-map-marker-alt"></i> Polonnaruwa , Sri Lanka</p>
+
+             
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/pasidu-piyumantha"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/pasidu1972"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/share/1AcsQEocEC/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=%2B94702924299"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/pasidupiyumantha"><i class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com/@pasidupiyumantha6614"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pasidu Piyumantha. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Generate floating particles
+        const particlesContainer = document.querySelector(".particles");
+        for (let i = 0; i < 50; i++) {
+            const particle = document.createElement("div");
+            particle.classList.add("particle");
+            particle.style.top = Math.random() * 100 + "vh";
+            particle.style.left = Math.random() * 100 + "vw";
+            particle.style.animationDuration = Math.random() * 3 + 2 + "s";
+            particlesContainer.appendChild(particle);
+        }
+    </script>
+
+</body>
+
+</html>

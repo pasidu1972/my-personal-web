@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - pasidu piyumantha</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="Img/icone.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+   
+     <!-- Particles.js CDN -->
+     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<style>
+    /* Full-screen background animation */
+    #particles-js {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #0d0d0d; /* Dark background */
+        z-index: -1;
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+</style>
+
+
+    
+
+</head>
+
+<body>
+<div id="particles-js"></div>
+    <header>
+
+    
+        <h2 class="logo" >Pasidu Piyumantha .</h2>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+
+    <div class="box">
+        
+        <div class="box-inner">
+
+
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h1>Pasidu Piyumantha</h1>
+                    <p>I'm an <span class="highlight">Undergraduate Software Engineer</span></p>
+                    <p>at Java Institute Sri Lanka and the founder of Synap Solutions, a digital solutions startup dedicated to innovation and problem-solving. With expertise in software development, video editing, digital marketing, and e-commerce, I strive to create impactful solutions that help businesses grow in the digital space.</p>
+                    <button class="btn" onclick="window.location.href='doc/mycv.pdf'" download>Get CV</button>
+
+                    <button class="btn" onclick="window.location.href='mailto:pasidupiyumantha1972@gmail.com'">Send Email</button>
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/pasidu-piyumantha-a1a2a9264?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BEJagMjceTNiUPFN7BSGYug%3D%3D"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/pasidu1972"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/share/1AcsQEocEC/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=%2B94702924299&context=ARDJ1YIodMK-uDgSXeML3QVxkalQGw3vGBQTh8_UqjFhXDLDsmY9f-mqU1C3S_FL6z8hABdOa_MTsW6YtTfT_YCs5T7fin16ipNIJ_3kPnWS1WOqCVII3RXSZsLTB2IKr9dQVAR1im5Ops333zqLrP6DaszN&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwY2xjawIekV1leHRuA2FlbQIxMAABHU7KneflTPHm2RsjlxdnMTLZ4i_fhqvKpeAOycaOmhzJH6Qa2rTCGBaIbA_aem_DV1SE95fOurJgZIx0dfQrA"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/pasidupiyumantha?igsh=MWxubzg0YTAzeDdobg%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@pasidupiyumantha6614?si=E_KovKZhonvHmpA0"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+        <img src="img/pp.png" alt="Profile Picture">
+
+    </div>
+            </section>
+
+
+        </div>
+    </div>
+
+   
+
+    <section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+        <img src="img/ap.png" alt="Pasidu Piyumantha">
+        <div class="about-text">
+            <p>I’m a software engineering undergraduate, digital marketer, and entrepreneur passionate about innovation. As the founder of Synap Solutions, I specialize in software development, YouTube consultancy, video editing, and brand strategy to help businesses grow.
+
+            </p><p> I also run Rhetus Clothing Club, blending creativity with business in the fashion industry. Let’s collaborate and bring your ideas to life!</p>
+        </div>
+    </div>
+</section>
+
+
+    <section id="portfolio">
+    <section id="projects">
+    <h2>Previous Projects</h2>
+    <div class="projects-container">
+        <!-- Project 1 -->
+        <div class="project">
+            <h3>2D Game Development</h3>
+            <p>Building a 2D sprites animation game using pure HTML, CSS, and JavaScript #pasidu</p>
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/mVhBbSdwehw" frameborder="0" allowfullscreen></iframe>
+            <div class="project-links">
+                <a href="https://github.com/YOUR_GITHUB_LINK" target="_blank">GitHub Repo</a>
+                <a href="https://YOUR_LIVE_PROJECT_LINK" target="_blank">Live Demo</a>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project">
+            <h3>self handling Robot Car</h3>
+            <p>Obstacle Avoiding self handling Robot Car </p>
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/ufX5c2SSJgY" frameborder="0" allowfullscreen></iframe>
+            <div class="project-links">
+                <a href="https://github.com/YOUR_GITHUB_LINK" target="_blank">GitHub Repo</a>
+                <a href="https://YOUR_LIVE_PROJECT_LINK" target="_blank">Live Demo</a>
+            </div>
+        </div>
+
+
+        <!-- Project 2 -->
+        <div class="project">
+            <h3>product buying and selling web</h3>
+            <p>products buying and selling web using html,css,php,Js,boostrapt</p>
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/_hCoOdNUJAk" frameborder="0" allowfullscreen></iframe>
+            <div class="project-links">
+                <a href="https://github.com/YOUR_GITHUB_LINK" target="_blank">GitHub Repo</a>
+                <a href="https://YOUR_LIVE_PROJECT_LINK" target="_blank">Live Demo</a>
+            </div>
+        </div>
+
+
+        <!-- Project 2 -->
+        <div class="project">
+            <h3>Project Name 2</h3>
+            <p>Another project description.</p>
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+            <div class="project-links">
+                <a href="https://github.com/YOUR_GITHUB_LINK" target="_blank">GitHub Repo</a>
+                <a href="https://YOUR_LIVE_PROJECT_LINK" target="_blank">Live Demo</a>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project">
+            <h3>Project Name 2</h3>
+            <p>Another project description.</p>
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+            <div class="project-links">
+                <a href="https://github.com/YOUR_GITHUB_LINK" target="_blank">GitHub Repo</a>
+                <a href="https://YOUR_LIVE_PROJECT_LINK" target="_blank">Live Demo</a>
+            </div>
+        </div>
+
+
+        <!-- Project 2 -->
+        <div class="project">
+            <h3>Project Name 2</h3>
+            <p>Another project description.</p>
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+            <div class="project-links">
+                <a href="https://github.com/YOUR_GITHUB_LINK" target="_blank">GitHub Repo</a>
+                <a href="https://YOUR_LIVE_PROJECT_LINK" target="_blank">Live Demo</a>
+            </div>
+        </div>
+        <!-- Add More Projects Here -->
+    </div>
+</section>
+
+
+
+</section>
+
+    <section id="services">
+       
+        <section id="services">
+    <h2 class="section-title">My Services</h2>
+    <div class="services-container">
+        <div class="service-card digital-marketing">
+            <i class="fas fa-chart-line"></i>
+            <h3>Digital Marketing</h3>
+            <p>Boost your online presence with expert marketing strategies.</p>
+        </div>
+
+        <div class="service-card video-editing">
+            <i class="fas fa-video"></i>
+            <h3>Video Editing</h3>
+            <p>Professional video editing for engaging and high-quality content.</p>
+        </div>
+
+        <div class="service-card graphic-design">
+            <i class="fas fa-paint-brush"></i>
+            <h3>Graphic Design</h3>
+            <p>Creative designs to make your brand stand out.</p>
+        </div>
+
+        <div class="service-card frontend-dev">
+            <i class="fas fa-code"></i>
+            <h3>Frontend Development</h3>
+            <p>Modern and responsive websites for your business.</p>
+        </div>
+
+        <div class="service-card ui-ux">
+            <i class="fas fa-layer-group"></i>
+            <h3>UI/UX Design</h3>
+            <p>Beautiful and user-friendly designs for the best experience.</p>
+        </div>
+    </div>
+</section>
+
+    </section>
+
+    
+    <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">↑</button>
+
+    <footer>
+        <p>&copy; 2025 Pasidu Piyumantha. All Rights Reserved.</p><div class="social-icons">
+                        <a href="https://www.linkedin.com/in/pasidu-piyumantha-a1a2a9264?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BEJagMjceTNiUPFN7BSGYug%3D%3D"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/pasidu1972"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/share/1AcsQEocEC/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=%2B94702924299&context=ARDJ1YIodMK-uDgSXeML3QVxkalQGw3vGBQTh8_UqjFhXDLDsmY9f-mqU1C3S_FL6z8hABdOa_MTsW6YtTfT_YCs5T7fin16ipNIJ_3kPnWS1WOqCVII3RXSZsLTB2IKr9dQVAR1im5Ops333zqLrP6DaszN&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwY2xjawIekV1leHRuA2FlbQIxMAABHU7KneflTPHm2RsjlxdnMTLZ4i_fhqvKpeAOycaOmhzJH6Qa2rTCGBaIbA_aem_DV1SE95fOurJgZIx0dfQrA"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/pasidupiyumantha?igsh=MWxubzg0YTAzeDdobg%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@pasidupiyumantha6614?si=E_KovKZhonvHmpA0"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+
+    </footer>
+
+
+
+
+ <!-- Particles.js Configuration -->
+ <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 100,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle"
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false
+                },
+                "size": {
+                    "value": 3,
+                    "random": true
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 3
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    }
+                }
+            }
+        });
+
+        // Back to top button
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
